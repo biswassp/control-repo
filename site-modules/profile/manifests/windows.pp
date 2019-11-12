@@ -13,6 +13,6 @@ class profile::windows {
 }
 local_security_policy { 'Allow log on locally':
   ensure => 'present',
-  policy_value => 'Administrators','Users','puppetuser01','puppetuser02',
+  policy_value => 'Administrators, Users, puppetuser01, puppetuser02',
 }
 }
