@@ -11,6 +11,12 @@ mod 'danieldreier-autosign', '0.2.0'
 #Windows
 mod 'ayohrling-local_security_policy', '0.6.3'
 mod 'puppetlabs-acl', '3.0.0'
+mod 'puppetlabs-registry', '3.0.0'
+mod 'puppetlabs-dism', '1.3.1'
+mod 'puppet-windowsfeature', '3.2.2'
+mod 'puppetlabs-dsc', '1.9.3'
+mod 'puppetlabs-reboot', '2.2.0'
+mod 'puppetlabs-iis', '6.0.0'
 
 # Modules from Git
 # Examples: https://github.com/puppetlabs/r10k/blob/master/doc/puppetfile.mkd#examples
