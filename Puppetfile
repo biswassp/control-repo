@@ -8,6 +8,9 @@ mod 'danieldreier-autosign', '0.2.0'
 #mod 'puppetlabs/stdlib',  '6.0.0'
 #mod 'puppetlabs/concat',  '6.0.0'
 
+#Windows
+mod 'ayohrling-local_security_policy', '0.6.3'
+
 # Modules from Git
 # Examples: https://github.com/puppetlabs/r10k/blob/master/doc/puppetfile.mkd#examples
 #mod 'apache',
