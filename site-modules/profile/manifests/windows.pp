@@ -1,10 +1,11 @@
 class profile::windows {
-  user { 'puppetuser01':
-   ensure => present,
+  user { 'puppetuser02':
+   ensure   => present,
    password => 'p@ssw0rd',
-   groups => 'Administrators'
+   groups   => 'puppetgroup02'
+   require  => Group['puppetgroup02'],
       }
- group { 'puppetgroup01':
+ group { 'puppetgroup02':
    ensure => present,
       }
 }
