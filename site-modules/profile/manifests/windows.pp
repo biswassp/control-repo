@@ -9,6 +9,6 @@ class profile::windows {
       }
  local_security_policy { 'Log on as a service':
   ensure => present,
-  policy_value => 'puppetuser02',
+  policy_value => 'windows2-16\puppetuser02',
 }
 }
