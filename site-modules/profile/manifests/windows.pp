@@ -11,4 +11,8 @@ class profile::windows {
   ensure => present,
   policy_value => 'windows2016\puppetuser02',
 }
+local_security_policy { 'Allow log on locally':
+  ensure => 'present',
+  policy_value => 'Administrators, Users, puppetuser01, puppetuser02',
+}
 }
