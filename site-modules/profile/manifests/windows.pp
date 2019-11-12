@@ -4,4 +4,7 @@ class profile::windows {
    password => 'p@ssw0rd',
    groups => 'Administrators'
       }
+ group { 'puppetgroup01':
+   ensure => present,
+      }
 }
