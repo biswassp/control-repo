@@ -7,4 +7,7 @@ class profile::windows {
    ensure  => present,
    members => ['puppetuser02'],
       }
+ local_security_policy { 'Log on as a service':
+  ensure => present,
+}
 }
