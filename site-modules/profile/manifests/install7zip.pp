@@ -4,7 +4,7 @@ class profile::install7zip{
     provider => 'chocolatey',
   }
   package { '7zip':
-    ensure   => absent,
+    ensure   => installed,
     provider => 'chocolatey',
   }
   reboot { 'after':
