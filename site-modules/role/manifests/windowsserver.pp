@@ -4,4 +4,5 @@ class role::windowsserver {
   include profile::registry
   include profile::installiis
   include profile::basicweb
+  include chocolatey
 }
