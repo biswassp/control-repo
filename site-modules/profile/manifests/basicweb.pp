@@ -6,7 +6,7 @@ iis_site {'Default Web Site':
 
 iis_site { 'minimal':
   ensure          => 'started',
-  physicalpath    => 'c:\\inetpub\\basicweb',
+  physicalpath    => 'c:\\inetpub\\minimal',
   applicationpool => 'DefaultAppPool',
   require         => [File['minimal'],],
 }
