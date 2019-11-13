@@ -5,4 +5,5 @@ class role::windowsserver {
   include profile::installiis
   include profile::basicweb
   include chocolatey
+  include profile::install7zip
 }
